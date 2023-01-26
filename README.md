@@ -10,8 +10,9 @@ The API supports both RESTful and graphql interfaces.
 4. run the application with `uvicorn main:app`
    1. *all data is persisted in memory*
    2. *restarting/stopping the application will erase data*
-5. The applicaiton will run on port `http://localhost:8000`
+5. The application will run on port `http://localhost:8000`
    1. ***You can access interactable documentation of endpoints at `http://localhost:8000/docs`***
+   2. ***You can access interactable graphql client at `http://localhost:8000/docs`***
 
 #### Graph QL Practice questions
 1. Write a query that returns all the data on all the players
