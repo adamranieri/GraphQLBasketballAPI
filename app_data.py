@@ -60,4 +60,16 @@ basketball_players: dict[int,BaksetballPlayer] = {
             assists = 41,
             blocks = 44)
     ),  
+        40004:BaksetballPlayer(
+        playerId=40004,
+        fname="Kevin",
+        lname="Swoop",
+        bioMetrics= Biometric(heightInches=74, weightLbs=185),
+        careerStats = Stats(
+            shotAttempts = 90, 
+            madeBaskets = 71, 
+            rebounds = 277,
+            assists = 14,
+            blocks = 32)
+    ), 
 }
